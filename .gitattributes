@@ -1,0 +1,3 @@
+# Datenpakete (teils generiert) nicht in die GitHub-Sprachstatistik zählen;
+# das Repo ist im Kern Java (Mods) mit Python/Shell-Skripten.
+*.mcfunction linguist-detectable=false
