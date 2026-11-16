@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
  * Keeps blocks inside the guarded area whole when something explodes. The explosion still
- * happens — sound, particles, knockback and damage to mobs and players stay — it just breaks
+ * happens (sound, particles, knockback and damage to mobs and players stay) it just breaks
  * and ignites nothing inside the area.
  */
 @Mixin(ServerExplosion.class)

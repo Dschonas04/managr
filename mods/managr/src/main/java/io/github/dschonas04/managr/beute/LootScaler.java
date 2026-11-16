@@ -23,7 +23,7 @@ public final class LootScaler implements ModInitializer {
         einstellungen = Einstellungen.lies(
                 FabricLoader.getInstance().getConfigDir().resolve(ID + ".properties"));
         if (einstellungen.untaetig()) {
-            LOG.info("both multipliers are 1.0 — loot stays vanilla");
+            LOG.info("both multipliers are 1.0: loot stays vanilla");
         } else {
             LOG.info("ores at {}, mobs at {}", einstellungen.ores, einstellungen.mobs);
         }

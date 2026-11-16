@@ -63,7 +63,7 @@ public final class Einstellungen {
     public boolean debug = false;
 
     private static final String VORLAGE = """
-            # Spawn Guard — an area where hostile mobs do not spawn.
+            # Spawn Guard: an area where hostile mobs do not spawn.
             #
             # Mobs are not spawned and removed again: the spawn attempt is dropped, so nothing
             # ever appears, nothing dies, and no drops or death sounds happen.

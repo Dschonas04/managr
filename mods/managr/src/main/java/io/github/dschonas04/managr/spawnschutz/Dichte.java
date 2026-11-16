@@ -46,7 +46,7 @@ public final class Dichte {
         return tiereJetzt;
     }
 
-    /** The second switch of the same call — persistent categories such as animals. */
+    /** The second switch of the same call, persistent categories such as animals. */
     public static boolean tiereDuerfenNoch(boolean vanilla) {
         return vanilla || tiereJetzt;
     }

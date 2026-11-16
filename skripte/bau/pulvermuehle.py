@@ -4,7 +4,7 @@
 Kohle oder Holzkohle und Lohenstaub in die obere Kiste, unten kommt Schwarzpulver heraus
 (2 Kohle + 1 Lohenstaub = 3 Schwarzpulver).
 
-Antrieb: kleines Wasserrad (8 U/min, 256 SU) über Getriebe und zwei Zahnradstufen auf 32 U/min – der Mixer braucht
+Antrieb: kleines Wasserrad (8 U/min, 256 SU) über Getriebe und zwei Zahnradstufen auf 32 U/min, der Mixer braucht
 mindestens 30. Das Becken gibt auf ein Depot aus, ein Trichter darunter füllt die Ausgabekiste.
 
 --mitte ist der Boden unter dem Becken (oberster fester Block); die Vorderseite mit den Kisten zeigt nach Norden.

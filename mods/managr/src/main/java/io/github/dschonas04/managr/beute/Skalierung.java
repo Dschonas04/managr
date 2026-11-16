@@ -19,7 +19,7 @@ import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
  * <p>The rule differs between the two cases on purpose:
  *
  * <ul>
- *   <li><b>Ores</b> keep their first item, always. Only what comes on top is scaled — the
+ *   <li><b>Ores</b> keep their first item, always. Only what comes on top is scaled, the
  *       Fortune bonus, and the ores that give several items at once. Mining a single diamond
  *       therefore always yields a diamond.
  *   <li><b>Mobs</b> have their amounts scaled outright, because those are ranges anyway

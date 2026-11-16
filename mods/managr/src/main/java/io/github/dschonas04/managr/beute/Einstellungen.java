@@ -16,7 +16,7 @@ import java.util.Locale;
  */
 public final class Einstellungen {
 
-    /** How much of an ore's extra items — the Fortune bonus and multi-item ores — remains. */
+    /** How much of an ore's extra items (the Fortune bonus and multi-item ores) remains. */
     public double ores = 0.7;
 
     /** How much of everything a creature drops remains. */
@@ -29,7 +29,7 @@ public final class Einstellungen {
     public boolean debug = false;
 
     private static final String VORLAGE = """
-            # Loot Scaler — how much loot ores and mobs still give.
+            # Loot Scaler: how much loot ores and mobs still give.
             #
             # Every value is a multiplier, not a percentage: 1.0 is vanilla, 0.7 keeps 70 percent,
             # 0.0 removes the scaled part entirely. Amounts are scaled, never the chance to drop:
@@ -108,7 +108,7 @@ public final class Einstellungen {
         }
     }
 
-    /** Nothing to do at all — used to keep the mixin out of the way when it would change nothing. */
+    /** Nothing to do at all, used to keep the mixin out of the way when it would change nothing. */
     public boolean untaetig() {
         return ores >= 1.0 && mobs >= 1.0;
     }

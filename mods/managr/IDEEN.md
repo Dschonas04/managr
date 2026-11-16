@@ -1,4 +1,4 @@
-# Managr – Ideen zum Erweitern
+# Managr: Ideen zum Erweitern
 
 Vorschläge, noch nicht umgesetzt. Jede Idee passt in einen der drei Teile (Beute, Spawnschutz, Verwaltung) oder
 bekommt einen eigenen Unterordner. Nur Server-Seite, keine Client-Mod nötig.
@@ -26,7 +26,7 @@ bekommt einen eigenen Unterordner. Nur Server-Seite, keine Client-Mod nötig.
 
 | Idee | Befehl / Datei | Nutzen |
 |---|---|---|
-| ✅ Sicherung vor Umbau (1.2.0) | `/sichern <x z> <radius>` (Ops) | kopiert die betroffenen `.mca`-Dateien nach `sicherungen/<datum>/` – Lehre aus dem Berg-Absenken am 08.10. |
+| ✅ Sicherung vor Umbau (1.2.0) | `/sichern <x z> <radius>` (Ops) | kopiert die betroffenen `.mca`-Dateien nach `sicherungen/<datum>/` - Lehre aus dem Berg-Absenken am 08.10. |
 | ✅ Explosionsschutz (1.2.0, Schalter `protect_blocks_from_explosions`) | `config/explosionen.properties` (`spawn_radius`, `creeper`, `tnt`) | keine Blockschäden durch Creeper/TNT im Spawnbereich, Rest der Welt bleibt wie er ist; wichtig mit TNT Arsenal |
 | TNT-Freigabe | `/tnt erlauben <Spieler>` | nur freigegebene Spieler dürfen TNT-Arsenal-Sprengstoff zünden |
 | Feuer am Spawn | in `spawn-guard.properties`: `feuer=false` | kein Feuerausbreiten und kein Blitzfeuer im Schutzbereich |
@@ -61,8 +61,8 @@ bekommt einen eigenen Unterordner. Nur Server-Seite, keine Client-Mod nötig.
 
 ## Reihenfolge (Vorschlag)
 
-1. ~~Sicherung vor Umbau, Explosionsschutz am Spawn~~ – erledigt in 1.2.0.
-2. Grundstücke oder Kistenschutz – verhindert die meisten Streitfälle.
-3. Prometheus-Exporter – Serverlast endlich in Grafana.
-4. Neustart-Countdown, Wartungsmodus – kleine Mühe, oft gebraucht.
-5. Vertrauenskasse digital – passt zum Spawn-Marktviertel.
+1. ~~Sicherung vor Umbau, Explosionsschutz am Spawn~~, erledigt in 1.2.0.
+2. Grundstücke oder Kistenschutz: verhindert die meisten Streitfälle.
+3. Prometheus-Exporter: Serverlast endlich in Grafana.
+4. Neustart-Countdown, Wartungsmodus: kleine Mühe, oft gebraucht.
+5. Vertrauenskasse digital: passt zum Spawn-Marktviertel.

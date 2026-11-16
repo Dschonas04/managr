@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Keeps hostile mobs from spawning inside a chosen area — nothing is spawned and killed
+ * Keeps hostile mobs from spawning inside a chosen area, nothing is spawned and killed
  * again, the spawn attempt itself is dropped.
  */
 public final class SpawnGuard implements ModInitializer {

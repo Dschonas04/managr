@@ -4,7 +4,7 @@ Werkzeuge zum Verwalten eines Minecraft-Servers (Fabric, Minecraft 26.3): eigene
 
 | Ordner | Inhalt |
 |---|---|
-| [`mods/managr`](mods/managr) | **Managr**: alle reinen Server-Mods in einer – Beute, Spawnschutz und Verwaltung (siehe unten) |
+| [`mods/managr`](mods/managr) | **Managr**: alle reinen Server-Mods in einer, Beute, Spawnschutz und Verwaltung (siehe unten) |
 | [`datenpakete`](datenpakete) | Eigene Datenpakete der Welt |
 | [`skripte`](skripte) | Allgemeine Werkzeuge: RCON, Chunky im Leerlauf, Telegram-Brücke, Welt-Scans, ChestLogger-Auswertung, Bau-Skripte mit Parametern |
 
@@ -19,13 +19,13 @@ Ideen zum Erweitern: [mods/managr/IDEEN.md](mods/managr/IDEEN.md).
 
 ### Beute (ex Loot Scaler)
 
-Erze und Mobs geben weniger: Mengen und der Glück-Bonus werden skaliert, nie die Chance – ein einzelnes Erz bleibt ein Erz.
+Erze und Mobs geben weniger: Mengen und der Glück-Bonus werden skaliert, nie die Chance, ein einzelnes Erz bleibt ein Erz.
 Einstellungen in `config/loot-scaler.properties` (`ores`, `mobs`, `never_zero`, `debug`). Ausführlich in
 [README-beute.md](mods/managr/README-beute.md).
 
 ### Spawnschutz (ex Spawn Guard)
 
-In einem Quadrat um einen Punkt (Standard: Weltspawn, Radius 10 Chunks) entstehen keine feindlichen Mobs – der Spawnversuch
+In einem Quadrat um einen Punkt (Standard: Weltspawn, Radius 10 Chunks) entstehen keine feindlichen Mobs, der Spawnversuch
 fällt weg, nichts stirbt, keine Beute. Dazu die Mob-Dichte um die Spieler (`monster_cap`, `animal_cap`, `water_cap`,
 `ambient_cap`) und wie oft Tiere spawnen dürfen (`animal_interval`). Mit `protect_blocks_from_explosions = yes` zerstören
 Explosionen (Creeper, TNT, auch TNT Arsenal, sofern es Vanilla-Explosionen nutzt) im Bereich keine Blöcke mehr; Knall, Rückstoß

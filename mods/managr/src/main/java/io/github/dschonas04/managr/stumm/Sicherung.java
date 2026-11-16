@@ -23,7 +23,7 @@ import org.apache.logging.log4j.Logger;
 
 /**
  * /sichern <x z> <radius> kopiert die Regionsdateien, die ein Quadrat um x/z berühren, nach
- * {@code sicherungen/<Zeitpunkt>/} neben dem Weltordner – vor jedem Geländeumbau. Gesichert werden
+ * {@code sicherungen/<Zeitpunkt>/} neben dem Weltordner: vor jedem Geländeumbau. Gesichert werden
  * Blöcke (region), Wesen (entities) und Orte wie Betten und Arbeitsblöcke (poi) der aktuellen
  * Dimension. Vorher wird die Welt gespeichert, damit die Kopie den Stand von jetzt enthält.
  * Zurückspielen: Server stoppen, die Dateien an ihren alten Platz kopieren. Nur für Operatoren.
